@@ -1,0 +1,70 @@
+/* BORDER FIXED  STYLE */
+
+.border-fixed .top {
+  top: 0;
+}
+
+.border-fixed .right {
+  right: 0;
+}
+
+.border-fixed .bottom {
+  bottom: 0;
+}
+
+.border-fixed .left {
+  left: 0;
+}
+
+.border-fixed .bottom,
+.border-fixed .top {
+  width: 100%;
+  height: 20px;
+}
+
+.border-fixed .left,
+.border-fixed .right {
+  width: 20px;
+  height: 100%;
+}
+
+.border-fixed .top,
+.border-fixed .right,
+.border-fixed .bottom,
+.border-fixed .left {
+  position: fixed;
+  z-index: 1000;
+  background-color: #ecf0f1; /* Default color */
+}
+
+/* Colors */
+
+/* PRIMARY */
+.border-fixed .primary {
+  background-color: #3498db;
+}
+
+/* DEFAULT */
+.border-fixed .default {
+  background-color: #ecf0f1;
+}
+
+/* EDIT */
+.border-fixed .edit {
+  background-color: #f1c40f;
+}
+
+/* ERROR */
+.border-fixed .error {
+  background-color: #e74c3c;
+}
+
+/* WARNING */
+.border-fixed .warning {
+  background-color: #e67e22;
+}
+
+/* SUCCESS */
+.border-fixed .success {
+  background-color: #2ecc71;
+}
