@@ -19,37 +19,41 @@
 
 ## Color
 
+
 * Primary `#3498db`:
-    ```html
+  ```html
     ...
      <div class='top primary'></div>
     ...
-    ```
+  ```
+
 * Edit `#f1c40f`:
-    ```html
+  ```html
     ...
      <div class='top edit'></div>
     ...
-    ```
+  ```
+
 * Error `#e74c3c`:
-    ```html
+  ```html
     ...
      <div class='top error'></div>
     ...
-    ```
+  ```
+
 * Warning `#e67e22`:
-    ```html
+  ```html
     ...
      <div class='top warning'></div>
     ...
-    ```
+  ```
 
 * Success `#2ecc71` :
-    ```html
+  ```html
     ...
      <div class='top success'></div>
     ...
-    ```
+  ```
 
 
 
