@@ -1,15 +1,15 @@
-# Border Fixed
+# Frame it
 
 ##Include:
 
 ```html
-    <link href="/css/border-fixed.css" rel="stylesheet">
+    <link href="/css/frame-it.css" rel="stylesheet">
 ```
 
-## Using this `border-fixed.css`:
+## Using this `frame-it.css`:
 
 ```html
-<div class='border-fixed'>
+<div class='frame-it'>
     <div class='top'></div>
     <div class='right'></div>
     <div class='bottom'></div>

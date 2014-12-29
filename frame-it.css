@@ -1,37 +1,37 @@
-/* BORDER FIXED  STYLE */
+/* FREAME IT STYLE */
 
-.border-fixed .top {
+.frame-it .top {
   top: 0;
 }
 
-.border-fixed .right {
+.frame-it .right {
   right: 0;
 }
 
-.border-fixed .bottom {
+.frame-it .bottom {
   bottom: 0;
 }
 
-.border-fixed .left {
+.frame-it .left {
   left: 0;
 }
 
-.border-fixed .bottom,
-.border-fixed .top {
+.frame-it .bottom,
+.frame-it .top {
   width: 100%;
   height: 20px;
 }
 
-.border-fixed .left,
-.border-fixed .right {
+.frame-it .left,
+.frame-it .right {
   width: 20px;
   height: 100%;
 }
 
-.border-fixed .top,
-.border-fixed .right,
-.border-fixed .bottom,
-.border-fixed .left {
+.frame-it .top,
+.frame-it .right,
+.frame-it .bottom,
+.frame-it .left {
   position: fixed;
   z-index: 1000;
   background-color: #ecf0f1; /* Default color */
@@ -40,31 +40,31 @@
 /* Colors */
 
 /* PRIMARY */
-.border-fixed .primary {
+.frame-it .primary {
   background-color: #3498db;
 }
 
 /* DEFAULT */
-.border-fixed .default {
+.frame-it .default {
   background-color: #ecf0f1;
 }
 
 /* EDIT */
-.border-fixed .edit {
+.frame-it .edit {
   background-color: #f1c40f;
 }
 
 /* ERROR */
-.border-fixed .error {
+.frame-it .error {
   background-color: #e74c3c;
 }
 
 /* WARNING */
-.border-fixed .warning {
+.frame-it .warning {
   background-color: #e67e22;
 }
 
 /* SUCCESS */
-.border-fixed .success {
+.frame-it .success {
   background-color: #2ecc71;
 }
