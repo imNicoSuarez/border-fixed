@@ -1,0 +1,20 @@
+{
+  "name": "frame-it",
+  "version": "0.0.1",
+  "homepage": "https://github.com/imNicoSuarez/frame-it",
+  "main": "./css/freame-it.css",
+  "authors": [
+    "Nicolas Suarez <nicolassuarez.cabrera@gmail.com>"
+  ],
+  "description": "Es un marco que indica distintos estados",
+  "keywords": [
+    "freame-it",
+    "css",
+    "sass",
+    "marco",
+    "border",
+    "fixed"
+  ],
+  "license": "MIT",
+  "private": false
+}
