@@ -2,7 +2,7 @@
 
 ## Install
 
-  ### Bower
+  Bower
   ```bash
     bower install frame-it
   ```
@@ -29,42 +29,42 @@
 * Primary `#3498db` -  $primary:
   ```html
     ...
-     <div class='border-top primary'></div>
+     <div class='frame-it primary'></div>
     ...
   ```
 
 * Edit `#f1c40f` - $edit:
   ```html
     ...
-     <div class='border-top edit'></div>
+     <div class='frame-it edit'></div>
     ...
   ```
 
 * Error `#e74c3c` - $error:
   ```html
     ...
-     <div class='border-top error'></div>
+     <div class='frame-it error'></div>
     ...
   ```
 
 * Warning `#e67e22` - $warning:
   ```html
     ...
-     <div class='border-top warning'></div>
+     <div class='frame-it warning'></div>
     ...
   ```
 
 * Success `#2ecc71` - $success:
   ```html
     ...
-     <div class='border-top success'></div>
+     <div class='frame-it success'></div>
     ...
   ```
 
 * Alert `#8e44ad` - $alert:
   ```html
     ...
-     <div class='border-top success'></div>
+     <div class='frame-it alert'></div>
     ...
   ```
 

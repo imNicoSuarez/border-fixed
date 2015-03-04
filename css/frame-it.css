@@ -44,8 +44,22 @@
   background-color: #3498db;
 }
 
+.primary .border-top,
+.primary .border-left,
+.primary .border-bottom,
+.primary .border-right {
+  background-color: #3498db;
+}
+
 /* DEFAULT */
 .frame-it .default {
+  background-color: #ecf0f1;
+}
+
+.default .border-top,
+.default .border-left,
+.default .border-bottom,
+.default .border-right {
   background-color: #ecf0f1;
 }
 
@@ -54,13 +68,35 @@
   background-color: #f1c40f;
 }
 
+.edit .border-top,
+.edit .border-left,
+.edit .border-bottom,
+.edit .border-right {
+  background-color: #f1c40f;
+}
+
+
 /* ERROR */
 .frame-it .error {
   background-color: #e74c3c;
 }
+.error .border-top,
+.error .border-left,
+.error .border-bottom,
+.error .border-right {
+  background-color: #e74c3c;
+}
+
 
 /* WARNING */
 .frame-it .warning {
+  background-color: #e67e22;
+}
+
+.warning .border-top,
+.warning .border-left,
+.warning .border-bottom,
+.warning .border-right {
   background-color: #e67e22;
 }
 
@@ -69,7 +105,20 @@
   background-color: #2ecc71;
 }
 
+.success .border-top,
+.success .border-left,
+.success .border-bottom,
+.success .border-right {
+  background-color: #2ecc71;
+}
+
 /* ALERT */
 .frame-it .success {
+  background-color: #8e44ad;
+}
+.alert .border-top,
+.alert .border-left,
+.alert .border-bottom,
+.alert .border-right {
   background-color: #8e44ad;
 }
