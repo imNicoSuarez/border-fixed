@@ -1,4 +1,5 @@
 @import "variable"
+@import "mixins"
 
 /* FREAME IT STYLE */
 
@@ -16,23 +17,33 @@
   height: 100%
 
 .frame-it
+  .border-top,
+  .border-left,
+  .border-bottom,
+  .border-right
+    @include transition(all $durationTransition $timingFunctionTransition)
+
   .border
     &-top
       @extend %defaultStyle
       @extend %topAndBottomSize
       top: 0
+      left: 0
     &-right
       @extend %defaultStyle
       @extend %leftAndRightSize
       right: 0
+      top: 0
     &-bottom
       @extend %defaultStyle
       @extend %topAndBottomSize
       bottom: 0
+      left: 0
     &-left
       @extend %defaultStyle
       @extend %leftAndRightSize
       left: 0
+      top: 0
 
   /* Colors border */
   .primary
@@ -49,6 +60,29 @@
     background-color: $success
   .alert
     background-color: $alert
+
+
+.hidden
+  .border
+    &-top
+      top: -$thickness
+    &-right
+      right: -$thickness
+    &-bottom
+      bottom: -$thickness
+    &-left
+      left: -$thickness
+
+.visible
+  .border
+    &-top
+      top: 0
+    &-right
+      right: 0
+    &-bottom
+      bottom: 0
+    &-left
+      left: 0
 
 
 /* Colors Global */
