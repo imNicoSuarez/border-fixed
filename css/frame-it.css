@@ -1,37 +1,37 @@
 /* FREAME IT STYLE */
 
-.frame-it .top {
+.frame-it .border-top {
   top: 0;
 }
 
-.frame-it .right {
+.frame-it .border-right {
   right: 0;
 }
 
-.frame-it .bottom {
+.frame-it .border-bottom {
   bottom: 0;
 }
 
-.frame-it .left {
+.frame-it .border-left {
   left: 0;
 }
 
-.frame-it .bottom,
-.frame-it .top {
+.frame-it .border-bottom,
+.frame-it .border-top {
   width: 100%;
   height: 20px;
 }
 
-.frame-it .left,
-.frame-it .right {
+.frame-it .border-left,
+.frame-it .border-right {
   width: 20px;
   height: 100%;
 }
 
-.frame-it .top,
-.frame-it .right,
-.frame-it .bottom,
-.frame-it .left {
+.frame-it .border-top,
+.frame-it .border-right,
+.frame-it .border-bottom,
+.frame-it .border-left {
   position: fixed;
   z-index: 1000;
   background-color: #ecf0f1; /* Default color */
@@ -67,4 +67,9 @@
 /* SUCCESS */
 .frame-it .success {
   background-color: #2ecc71;
+}
+
+/* ALERT */
+.frame-it .success {
+  background-color: #8e44ad;
 }
