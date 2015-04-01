@@ -1,4 +1,4 @@
-# Frame it
+# Frame it <a href="http://bower.io/search/?q=frame-it"><img src="https://benschwarz.github.io/bower-badges/badge@2x.png" width="130" height="30"></a>
 
 ## Install
 
